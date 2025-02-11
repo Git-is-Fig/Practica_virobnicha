@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <nav>
+                <div class="iconsNav">
+                    <div class="NavCircle1"></div>
+                    <div class="NavCircle2"></div>
+                    <div class="NavSquare"></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><button id="Contact" onclick="showPopup()">Contact</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="general">
+        <section>
+
+            <div id="popup">
+                <h2>Contact Us</h2>
+                <p>Email: MangaW@yahoo.com</p>
+                <p>Phone: +123456789</p>
+                <button id="closePopup" onclick="closePopup()">Close</button>
+            </div>
+            <div id="News">
+                <h1 class="Read">Read Our News</h1>
+                
+                <div class="NewsContainer">
+                    <div class="NewsItem">
+                        <img src="images/images.jpg" class="NewsIMG">
+                        <p class="NewsText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies 
+                            <span class="HiddenText"> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies.</span>
+                        </p>
+                        <button class="ReadMoreBtn" onclick="toggleText(this)">Read More</button>
+                    </div>
+                    <div class="NewsItem">
+                        <img src="images/images (1).jpg" class="NewsIMG">
+                        <p class="NewsText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies 
+                            <span class="HiddenText"> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies.</span>
+                        </p>
+                        <button class="ReadMoreBtn" onclick="toggleText(this)">Read More</button>
+                    </div>
+                    <div class="NewsItem">
+                        <img src="images/images (2).jpg" class="NewsIMG">
+                        <p class="NewsText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies 
+                            <span class="HiddenText"> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies.</span>
+                        </p>
+                        <button class="ReadMoreBtn" onclick="toggleText(this)">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <div class="iconsFooter">
+          <div class="FooterCircle1"></div>
+          <div class="FooterCircle2"></div>
+          <div class="FooterSquare"></div>
+        </div>
+      
+        <div class="footer-section OurContact">
+          <h4>Our Contact</h4>
+          <p>Telegram: <a href="#MangaW">MangaW</a></p>
+          <p>Help: (041) 425 277 / 425</p>
+          <p>Email: MangaW@yahoo.com</p>
+        </div>
+      
+        <div class="footer-section boutUs">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies</p>
+        </div>
+      
+        <div class="footer-section sub">
+          <h4>Subscribe</h4>
+          <input type="text" lang="en" placeholder="Your Email">
+        </div>
+
+        <div class="footer-section media">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#facebook"><i class="fab fa-facebook"></i></a></li>
+          </ul>
+        </div>
+    </footer> 
+</body>
+</html>

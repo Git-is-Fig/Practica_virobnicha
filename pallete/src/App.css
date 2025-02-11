@@ -1,0 +1,26 @@
+header {
+  background-color: rgba(240, 248, 255, 0);
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+};
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-color: #000;
+  background-image: url('https://cdn.vectorstock.com/i/500p/33/71/night-sky-galaxy-stars-vector-10343371.jpg'); /* Замініть на своє зображення */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}

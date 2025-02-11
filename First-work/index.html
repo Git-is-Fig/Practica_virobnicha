@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <nav>
+                <div class="iconsNav">
+                    <div class="NavCircle1"></div>
+                    <div class="NavCircle2"></div>
+                    <div class="NavSquare"></div>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><button id="Contact" onclick="showPopup()">Contact</button></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <main id="general">
+
+            <p class="mission">Our mission is share, your mission is reading</p>
+            <h1 class="gen">We are sharing manga/manhwa/manhua</h1>
+            <h1 class="gen">from different sources</h1>
+
+            <button id="getInTouch" onclick="showPopup()">Get in touch</button>
+
+            <div id="popup">
+                <h2>Contact Us</h2>
+                <p>Email: MangaW@yahoo.com</p>
+                <p>Phone: +123456789</p>
+                <button id="closePopup" onclick="closePopup()">Close</button>
+            </div>
+
+            <div class="sources-container">
+                <div class="source1">
+                    <div class="logo-container">
+                        <img id="mangaInUa" src="images/завантаження.png" alt="MangaInUa">
+                    </div>
+                    <h4><a href="https://manga.in.ua">Manga in ua</a></h4>
+                    <p class="manga">Manga.in.ua - manga online in Ukrainian</p>
+                </div>
+
+                <div class="source2">
+                    <div class="logo-container">
+                        <img id="Viz" src="images/завантаження (1).png" alt="VIZ">
+                    </div>
+                    <h4><a href="https://www.viz.com">VIZ Media</a></h4>
+                    <p class="manga">VIZ | The Best in Manga, Anime & Global Entertainment</p>
+                </div>
+
+                <div class="source3">
+                    <div class="logo-container">
+                        <img id="Line" src="images/завантаження (2).png" alt="LineManga">
+                    </div>
+
+                    <h4><a href="https://manga.line.me">ストア｜LINE マンガ</a></h4>
+                    <p class="manga1">A rich lineup of about 430,000 items,
+                        including manga that have been made into movies and animated cartoons!
+                        The store section, which carries even the latest editions,
+                        is always offering special one-volume free and multiple-volume free campaigns!
+                    </p>
+                </div>
+            </div>            
+        <section id="Contacts">
+            <h1 style="color: white; margin: 90px;">We like to start your reading with us</h1>
+            <button id="getInTouch2" onclick="showPopup()">Get in Touch</button>
+        </section>      
+    </main>
+    <footer>
+        <div class="iconsFooter">
+          <div class="FooterCircle1"></div>
+          <div class="FooterCircle2"></div>
+          <div class="FooterSquare"></div>
+        </div>
+      
+        <div class="footer-section OurContact">
+          <h4>Our Contact</h4>
+          <p>Telegram: <a href="#MangaW">MangaW</a></p>
+          <p>Help: (041) 425 277 / 425</p>
+          <p>Email: MangaW@yahoo.com</p>
+        </div>
+      
+        <div class="footer-section boutUs">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies</p>
+        </div>
+      
+        <div class="footer-section sub">
+          <h4>Subscribe</h4>
+          <input type="text" lang="en" placeholder="Your Email">
+        </div>
+
+        <div class="footer-section media">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#facebook"><i class="fab fa-facebook"></i></a></li>
+          </ul>
+        </div>
+    </footer>      
+</body>
+</html>
