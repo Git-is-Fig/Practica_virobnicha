@@ -1,0 +1,36 @@
+.searchCategory-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+  
+.searchCategory-container {
+    display: flex;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    width: 12%;
+    max-width: 350px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-left: -1176px;
+}
+  
+.searchCategory-icon {
+    color: #6b7280;
+}
+  
+.searchCategory-bar {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 100%;
+    color: #374151;
+}
+  
+.searchCategory-bar::placeholder {
+    color: #9ca3af;
+}

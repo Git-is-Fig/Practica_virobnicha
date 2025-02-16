@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "title": "UK review presentations",
+      "description": "A detailed review of UK business presentations",
+      "category": "Business",
+      "author": "John Doe",
+      "date": "2025-02-01",
+      "image": "/images/post1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Migrating to Linear 101",
+      "description": "Step-by-step guide to migrating to Linear",
+      "category": "Software Engineering",
+      "author": "Jane Smith",
+      "date": "2025-01-28",
+      "image": "/images/post2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Building your API stack",
+      "description": "How to structure your API stack efficiently",
+      "category": "Technology",
+      "author": "Michael Johnson",
+      "date": "2025-01-25",
+      "image": "/images/post3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Weekly newsletter",
+      "description": "Stay updated with our weekly insights",
+      "category": "Newsletter",
+      "author": "Editorial Team",
+      "date": "2025-01-20",
+      "image": "/images/post4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "PM mental models",
+      "description": "Understanding the mental models of project managers",
+      "category": "Management",
+      "author": "Alice Brown",
+      "date": "2025-01-18",
+      "image": "/images/post5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "What is wireframing?",
+      "description": "A guide to wireframing and its importance in design",
+      "category": "Design",
+      "author": "Robert Wilson",
+      "date": "2025-01-15",
+      "image": "/images/post6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "How collaboration makes us better designers",
+      "description": "The impact of teamwork in the design process",
+      "category": "Design",
+      "author": "Sophia Lee",
+      "date": "2025-01-12",
+      "image": "/images/post7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Our top 10 JavaScript frameworks to use",
+      "description": "A comparison of the best JavaScript frameworks",
+      "category": "Software Engineering",
+      "author": "David Kim",
+      "date": "2025-01-10",
+      "image": "/images/post8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Podcast: Creating a better CX community",
+      "description": "How to build a strong customer experience network",
+      "category": "Business",
+      "author": "Emily Davis",
+      "date": "2025-01-08",
+      "image": "/images/post9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The future of remote work",
+      "description": "Trends and predictions for remote work in 2025",
+      "category": "Business",
+      "author": "Chris Evans",
+      "date": "2025-01-05",
+      "image": "/images/post10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "AI in product design",
+      "description": "How artificial intelligence is shaping product design",
+      "category": "Technology",
+      "author": "Olivia Martinez",
+      "date": "2025-01-02",
+      "image": "/images/post11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The rise of no-code tools",
+      "description": "Exploring the benefits of no-code development platforms",
+      "category": "Software Engineering",
+      "author": "Liam Thompson",
+      "date": "2024-12-30",
+      "image": "/images/post12.jpg"
+    }
+  ]
+  

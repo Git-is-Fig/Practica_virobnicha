@@ -1,0 +1,18 @@
+.ForSearchCategory {
+    font-family: "Montserrat", serif;
+    margin-left: 40px;
+}
+.poCategory {
+    margin: 5px;
+    margin-left: 45px;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    color: rgb(0, 89, 255);
+}
+.ForSearchCategory2 {
+    font-family: "Montserrat", serif;
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}

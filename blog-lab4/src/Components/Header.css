@@ -1,0 +1,66 @@
+.header {
+    font-family: "Montserrat", serif;
+    background: white;
+    padding: 15px 10px, 10px, 5px;
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-left: -100px;
+}
+
+.nav-links {
+    margin-left: -400px;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login, .signup {
+    font-family: "Montserrat", serif;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.401);
+    border: 1px solid rgba(0, 0, 0, 0.515);
+    background: none;
+    color: #666;
+}
+
+.signup {
+    background: #7f56d9;
+    color: white;
+}
